@@ -1,0 +1,16 @@
+/home/michel/ros2_ws/install/cpp_publisher/lib/cpp_publisher/talker
+/home/michel/ros2_ws/install/cpp_publisher/share/ament_index/resource_index/package_run_dependencies/cpp_publisher
+/home/michel/ros2_ws/install/cpp_publisher/share/ament_index/resource_index/parent_prefix_path/cpp_publisher
+/home/michel/ros2_ws/install/cpp_publisher/share/cpp_publisher/environment/ament_prefix_path.sh
+/home/michel/ros2_ws/install/cpp_publisher/share/cpp_publisher/environment/ament_prefix_path.dsv
+/home/michel/ros2_ws/install/cpp_publisher/share/cpp_publisher/environment/path.sh
+/home/michel/ros2_ws/install/cpp_publisher/share/cpp_publisher/environment/path.dsv
+/home/michel/ros2_ws/install/cpp_publisher/share/cpp_publisher/local_setup.bash
+/home/michel/ros2_ws/install/cpp_publisher/share/cpp_publisher/local_setup.sh
+/home/michel/ros2_ws/install/cpp_publisher/share/cpp_publisher/local_setup.zsh
+/home/michel/ros2_ws/install/cpp_publisher/share/cpp_publisher/local_setup.dsv
+/home/michel/ros2_ws/install/cpp_publisher/share/cpp_publisher/package.dsv
+/home/michel/ros2_ws/install/cpp_publisher/share/ament_index/resource_index/packages/cpp_publisher
+/home/michel/ros2_ws/install/cpp_publisher/share/cpp_publisher/cmake/cpp_publisherConfig.cmake
+/home/michel/ros2_ws/install/cpp_publisher/share/cpp_publisher/cmake/cpp_publisherConfig-version.cmake
+/home/michel/ros2_ws/install/cpp_publisher/share/cpp_publisher/package.xml
