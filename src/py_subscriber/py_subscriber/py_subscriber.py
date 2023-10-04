@@ -16,3 +16,16 @@ class MinimalSubscriber(Node):
 
     def listener_callback(self, msg):
         self.get_logger().info('I heard the even number: "%s"' % msg.data)
+
+def main(args=None):
+    rclpy.init(args=args)
+
+    minimal_subscriber = MinimalSubscriber()
+
+    rclpy.spin(minimal_subscriber)
+    minimal_subscriber.destroy_node()
+    rclpy.shutdown()
+
+
+if __name__ == '__main__':
+    main()
