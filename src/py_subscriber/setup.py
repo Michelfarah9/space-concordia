@@ -15,11 +15,12 @@ setup(
     zip_safe=True,
     maintainer='michel',
     maintainer_email='michelfarahh7@gmail.com',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    description='Package pyth',
+    license='Apache License 2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'listener = py_subscriber.py_subscriber:main',
         ],
     },
 )
