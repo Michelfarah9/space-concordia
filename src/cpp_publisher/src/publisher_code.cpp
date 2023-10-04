@@ -18,3 +18,23 @@ public:
     timer_ = this->create_wall_timer(
       1000ms, std::bind(&MinimalPublisher::timer_callback, this));
   }
+
+  private:
+  void timer_callback()
+  {
+    auto message = std_msgs::msg::String();
+    message.data = "The next even number is " + std::to_string(count_);
+    
+    if (count_ % 2 == 0) // Only publish even numbers
+    {
+      RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
+      publisher_->publish(message);
+    }
+    
+    count_++;
+  }
+
+  rclcpp::TimerBase::SharedPtr timer_;
+  rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
+  size_t count_;
+};
